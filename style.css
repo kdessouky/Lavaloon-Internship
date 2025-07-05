@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00704A;
+    color: #1e3932;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #085e42;
+  }
+  
+  .hero {
+    background-color: #d4e9e2;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #00704A;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    padding: 60px 40px;
+    background-color: #f1f8f6;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    color: #00704A;
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .cta a {
+    background: #00704A;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .cta a:hover {
+    background: #005938;
+  }
+  
+  footer {
+    background-color: #1e3932;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  } 
+
+  .imageDivStyle { height: 100px; width: 100px; }
+  .imageDivStyle img{ object-fit: cover; height: 100%; width: 100%; }

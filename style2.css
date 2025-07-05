@@ -1,0 +1,24 @@
+body{height: 100%; margin: 0;}
+.frontpage{ color: white; 
+    
+    font-weight:bold; position: absolute;
+    
+    top: 40%; left: 30%; width: 40%; text-align: center; display: flex; flex-direction: column ;align-items: center;}
+
+.imagediv {
+
+    background-image: url('https://stories.starbucks.com/uploads/2020/06/Starbucks-Virtual-Backgrounds-Community-Store-in-Jonesboro-1024x683.jpg');
+    filter: blur(8px);
+    background-size: cover;        /* Ensures the image covers the entire area */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+    height: 100vh;                 /* Full screen height */
+ 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+    .btn{color: #00704A; background-color: beige; text-decoration: none; padding: 10px; border-radius: 20px; }
+
+    .logodivstyle { height: 100px; width: 100px; }
+    .logodivstyle img{ object-fit: cover; height: 100%; width: 100%; }
+  
